@@ -1,4 +1,5 @@
+import os
 import requests
 
 
-print(APIKEY)
+api_key = os.environ.get("OPEN_API_KEY")
